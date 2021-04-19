@@ -14,13 +14,13 @@ function App() {
           <Switch>
             <Route path="/" exact>
               <RandomButton />
-              <div class="flex justify-center items-center lg:mt-24">
+              <div class="flex justify-center items-center md:mt-16 lg:mt-24">
                 <List />
               </div>
             </Route>
             <Route path="/quote/:author">
               <RandomButton />
-              <div class="flex justify-center items-center lg:mt-24">
+              <div class="flex justify-center items-center md:mt-16 lg:mt-24">
                 <List />
               </div>
             </Route>
