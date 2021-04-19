@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="w-full fixed bottom-0 flex justify-center">
+    <div className="w-5/6 lg:w-full fixed bottom-0 flex justify-center">
       <span className="raleway-regular text-gray-500">
         created by{" "}
         <a
