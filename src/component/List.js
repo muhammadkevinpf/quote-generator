@@ -22,6 +22,7 @@ export const List = (props) => {
       }
     }
     return getQuotes();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [getQuote, author]);
 
   const mapList = () =>
